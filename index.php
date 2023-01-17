@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" data-x="html" data-x-toggle="html-overflow-hidden">
-
-
-<!-- Mirrored from creativelayers.net/themes/gotrip-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jan 2023 18:28:44 GMT -->
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="shortcut icon" href="logo.svg" type="image/x-icon">
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -39,7 +36,7 @@
     </div>
 
     <div class="preloader__title">GoTrip</div>
-  </div>
+  </div> 
 
   <main>
 
@@ -66,41 +63,10 @@
                     <ul class="menu__nav text-white -is-active">
 
                       <li class="menu-item-has-children">
-                        <a data-barba href="#">
+                        <a data-barba href=".">
                           <span class="mr-10">Home</span>
-                          <i class="icon icon-chevron-sm-down"></i>
                         </a>
-
-                        <ul class="subnav">
-                          <li class="subnav__backBtn js-nav-list-back">
-                            <a href="#"><i class="icon icon-chevron-sm-down"></i> Home</a>
-                          </li>
-
-                          <li><a href="index.html">Home 1</a></li>
-
-                          <li><a href="home-2.html">Home 2</a></li>
-
-                          <li><a href="home-3.html">Home 3</a></li>
-
-                          <li><a href="home-4.html">Home 4</a></li>
-
-                          <li><a href="home-5.html">Home 5</a></li>
-
-                          <li><a href="home-6.html">Home 6</a></li>
-
-                          <li><a href="home-7.html">Home 7</a></li>
-
-                          <li><a href="home-8.html">Home 8</a></li>
-
-                          <li><a href="home-9.html">Home 9</a></li>
-
-                          <li><a href="home-10.html">Home 10</a></li>
-
-                        </ul>
-
                       </li>
-
-
                       <li class="menu-item-has-children -has-mega-menu">
                         <a data-barba href="#">
                           <span class="mr-10">Categories</span>
@@ -110,7 +76,6 @@
                         <div class="mega">
                           <div class="tabs -underline-2 js-tabs">
                             <div class="tabs__controls row x-gap-40 y-gap-10 lg:x-gap-20 pb-30 js-tabs-controls">
-
                               <div class="col-auto">
                                 <button class="tabs__button text-light-1 fw-500 js-tabs-button is-tab-el-active" data-tab-target=".-tab-item-1">Hotel</button>
                               </div>
@@ -585,25 +550,10 @@
                       </li>
 
 
-                      <li class="menu-item-has-children">
-                        <a data-barba href="#">
-                          <span class="mr-10">Blog</span>
-                          <i class="icon icon-chevron-sm-down"></i>
+                      <li>
+                        <a href="./blog.html">
+                          Blog
                         </a>
-
-                        <ul class="subnav">
-                          <li class="subnav__backBtn js-nav-list-back">
-                            <a href="#"><i class="icon icon-chevron-sm-down"></i> Blog</a>
-                          </li>
-
-                          <li><a href="blog-list-1.html">Blog list v1</a></li>
-
-                          <li><a href="blog-list-2.html">Blog list v2</a></li>
-
-                          <li><a href="blog-single.html">Blog single</a></li>
-
-                        </ul>
-
                       </li>
 
 
@@ -626,55 +576,11 @@
 
                           <li><a href="help-center.html">Help center</a></li>
 
-                          <li><a href="login.html">Login</a></li>
-
-                          <li><a href="signup.html">Register</a></li>
-
-                          <li><a href="terms.html">Terms</a></li>
-
-                          <li><a href="invoice.html">Invoice</a></li>
-
                           <li><a href="ui-elements.html">UI elements</a></li>
 
                         </ul>
 
                       </li>
-
-
-                      <li class="menu-item-has-children">
-                        <a data-barba href="#">
-                          <span class="mr-10">Dashboard</span>
-                          <i class="icon icon-chevron-sm-down"></i>
-                        </a>
-
-                        <ul class="subnav">
-                          <li class="subnav__backBtn js-nav-list-back">
-                            <a href="#"><i class="icon icon-chevron-sm-down"></i> Dashboard</a>
-                          </li>
-
-                          <li><a href="db-dashboard.html">Dashboard</a></li>
-
-                          <li><a href="db-booking.html">Booking</a></li>
-
-                          <li><a href="db-settings.html">Settings</a></li>
-
-                          <li><a href="db-wishlist.html">Wishlist</a></li>
-
-                          <li><a href="db-vendor-dashboard.html">Vendor dashboard</a></li>
-
-                          <li><a href="db-vendor-add-hotel.html">Vendor add hotel</a></li>
-
-                          <li><a href="db-vendor-booking.html">Vendor booking</a></li>
-
-                          <li><a href="db-vendor-hotels.html">Vendor hotels</a></li>
-
-                          <li><a href="db-vendor-recovery.html">Vendor recovery</a></li>
-
-                        </ul>
-
-                      </li>
-
-
                       <li>
                         <a href="contact.html">Contact</a>
                       </li>
@@ -705,18 +611,17 @@
                   <div class="w-1 h-20 bg-white-20"></div>
                 </div>
 
-                <div class="col-auto">
+                <!-- <div class="col-auto">
                   <button class="d-flex items-center text-14 text-white" data-x-click="lang">
-                    <img src="img/general/lang.png" alt="image" class="rounded-full mr-10">
                     <span class="js-language-mainTitle">United Kingdom</span>
                     <i class="icon-chevron-sm-down text-7 ml-15"></i>
                   </button>
-                </div>
+                </div> -->
               </div>
 
 
               <div class="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
-                <a href="login.html" class="button px-30 fw-400 text-14 -white bg-white h-50 text-dark-1">Become An Expert</a>
+                <a href="login.html" class="button px-30 fw-400 text-14 -white bg-white h-50 text-dark-1">Login</a>
                 <a href="signup.html" class="button px-30 fw-400 text-14 border-white -outline-white h-50 text-white ml-20">Sign In / Register</a>
               </div>
 
@@ -734,7 +639,7 @@
 
     <section data-anim-wrap class="masthead -type-1 z-5">
       <div data-anim-child="fade" class="masthead__bg">
-        <img src="#" alt="image" data-src="img/masthead/1/bg.webp" class="js-lazy">
+        <img src="img/masthead/1/bg.webp" alt="image" data-src="img/masthead/1/bg.webp" class="js-lazy">
       </div>
 
       <div class="container">

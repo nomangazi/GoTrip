@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from creativelayers.net/themes/gotrip-html/db-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jan 2023 18:42:58 GMT -->
+
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
@@ -14,8 +15,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="css/vendors.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/vendors.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <title>GoTrip</title>
 </head>
@@ -1036,14 +1037,15 @@
   </div>
 
   <!-- JavaScript -->
-  <script src="../../../cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js" integrity="sha512-QSkVNOCYLtj73J4hbmVoOV6KVZuMluZlioC+trLpewV8qMjsWqlIQvkn1KGX2StWvPMdWGBqim1xlC8krl1EKQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM"></script>
-  <script src="../../../unpkg.com/%40googlemaps/markerclusterer%402.0.15/dist/index.min.js"></script>
+  <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
 
-  <script src="js/vendors.js"></script>
-  <script src="js/main.js"></script>
+  <script src="../js/vendors.js"></script>
+  <script src="../js/main.js"></script>
 </body>
 
 
 <!-- Mirrored from creativelayers.net/themes/gotrip-html/db-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jan 2023 18:43:11 GMT -->
+
 </html>
