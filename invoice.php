@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from creativelayers.net/themes/gotrip-html/invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jan 2023 18:42:58 GMT -->
+
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
@@ -48,7 +49,7 @@
         <div class="row justify-center">
           <div class="col-xl-10 col-lg-11">
             <div class="d-flex justify-end">
-              <button class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
+              <button onclick="window.print()" class="button h-50 px-24 -dark-1 bg-blue-1 text-white">
                 Print
                 <i class="icon-bed text-20 ml-10"></i>
               </button>
@@ -1575,4 +1576,5 @@
 
 
 <!-- Mirrored from creativelayers.net/themes/gotrip-html/invoice.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jan 2023 18:42:58 GMT -->
+
 </html>

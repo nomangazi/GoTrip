@@ -695,7 +695,7 @@
 
 		const contentString = `
     <div class="mapItem d-flex">
-      <img src="img/lists/hotel/1/1.png" alt="image" class="mapItem__img size-100 rounded-4">
+      <img src="/gotrip/img/lists/hotel/1/1.png" alt="image" class="mapItem__img size-100 rounded-4">
 
       <div class="mapItem__content d-flex flex-column justify-between ml-15">
         <div>
@@ -1640,8 +1640,7 @@
 				const attributes = eventTarget.getAttribute('data-x-click').split(', ');
 
 				attributes.forEach((el) => {
-					const target = document.querySelector(`[data-x=${el}]`);
-
+					const target = document.querySelector(`[data-x-target="${el}"]`);
 					eventTarget.addEventListener('click', () => {
 						const toggleClass = target.getAttribute('data-x-toggle');
 						target.classList.toggle(toggleClass);
@@ -1840,9 +1839,9 @@
 				classList = header.getAttribute('data-add-bg');
 			}
 
-			new ScrollMagic.Scene({ offset: '6px' }).setClassToggle(header, classList).addTo(App.SMcontroller);
+			new ScrollMagic.Scene({ offset: '6px' }).setClassToggle(header, 'bg-dark-1').addTo(App.SMcontroller);
 
-			new ScrollMagic.Scene({ offset: '6px' }).setClassToggle(header, 'is-sticky').addTo(App.SMcontroller);
+			new ScrollMagic.Scene({ offset: '6px' }).setClassToggle(header, 'is-sticky bg-dark-1').addTo(App.SMcontroller);
 		}
 
 		return {

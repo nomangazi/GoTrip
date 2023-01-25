@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from creativelayers.net/themes/gotrip-html/db-dashboard.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 Jan 2023 18:42:58 GMT -->
-
 <head>
   <!-- Required meta tags -->
   <meta charset="UTF-8">
@@ -50,8 +47,8 @@
     <div data-anim="fade" class="header__container px-30 sm:px-20">
       <div class="-left-side">
         <a href="index.html" class="header-logo" data-x="header-logo" data-x-toggle="is-logo-dark">
-          <img src="img/general/logo-dark.svg" alt="logo icon">
-          <img src="img/general/logo-dark.svg" alt="logo icon">
+          <img src="/gotrip/img/general/logo-dark.svg" alt="logo icon">
+          <img src="/gotrip/img/general/logo-dark.svg" alt="logo icon">
         </a>
       </div>
 
@@ -720,7 +717,7 @@
             </div>
 
             <div class="pl-15">
-              <img src="img/avatars/3.png" alt="image" class="size-50 rounded-22 object-cover">
+              <img src="/gotrip/img/avatars/3.png" alt="image" class="size-50 rounded-22 object-cover">
             </div>
 
             <div class="d-none xl:d-flex x-gap-20 items-center pl-20" data-x="header-mobile-icons" data-x-toggle="text-white">
@@ -742,7 +739,7 @@
         <div class="sidebar__item">
           <div class="sidebar__button -is-active">
             <a href="db-dashboard.html" class="d-flex items-center text-15 lh-1 fw-500">
-              <img src="img/dashboard/sidebar/compass.svg" alt="image" class="mr-15">
+              <img src="/gotrip/img/dashboard/sidebar/compass.svg" alt="image" class="mr-15">
               Dashboard
             </a>
           </div>
@@ -751,7 +748,7 @@
         <div class="sidebar__item">
           <div class="sidebar__button ">
             <a href="db-booking.html" class="d-flex items-center text-15 lh-1 fw-500">
-              <img src="img/dashboard/sidebar/booking.svg" alt="image" class="mr-15">
+              <img src="/gotrip/img/dashboard/sidebar/booking.svg" alt="image" class="mr-15">
               Booking History
             </a>
           </div>
@@ -760,7 +757,7 @@
         <div class="sidebar__item">
           <div class="sidebar__button ">
             <a href="db-wishlist.html" class="d-flex items-center text-15 lh-1 fw-500">
-              <img src="img/dashboard/sidebar/bookmark.svg" alt="image" class="mr-15">
+              <img src="/gotrip/img/dashboard/sidebar/bookmark.svg" alt="image" class="mr-15">
               Wishlist
             </a>
           </div>
@@ -769,7 +766,7 @@
         <div class="sidebar__item">
           <div class="sidebar__button ">
             <a href="db-settings.html" class="d-flex items-center text-15 lh-1 fw-500">
-              <img src="img/dashboard/sidebar/gear.svg" alt="image" class="mr-15">
+              <img src="/gotrip/img/dashboard/sidebar/gear.svg" alt="image" class="mr-15">
               Settings
             </a>
           </div>
@@ -778,7 +775,7 @@
         <div class="sidebar__item">
           <div class="sidebar__button ">
             <a href="#" class="d-flex items-center text-15 lh-1 fw-500">
-              <img src="img/dashboard/sidebar/log-out.svg" alt="image" class="mr-15">
+              <img src="/gotrip/img/dashboard/sidebar/log-out.svg" alt="image" class="mr-15">
               Logout
             </a>
           </div>
@@ -817,7 +814,7 @@
                 </div>
 
                 <div class="col-auto">
-                  <img src="img/dashboard/icons/1.svg" alt="icon">
+                  <img src="/gotrip/img/dashboard/icons/1.svg" alt="icon">
                 </div>
               </div>
             </div>
@@ -833,7 +830,7 @@
                 </div>
 
                 <div class="col-auto">
-                  <img src="img/dashboard/icons/2.svg" alt="icon">
+                  <img src="/gotrip/img/dashboard/icons/2.svg" alt="icon">
                 </div>
               </div>
             </div>
@@ -849,7 +846,7 @@
                 </div>
 
                 <div class="col-auto">
-                  <img src="img/dashboard/icons/3.svg" alt="icon">
+                  <img src="/gotrip/img/dashboard/icons/3.svg" alt="icon">
                 </div>
               </div>
             </div>
@@ -861,11 +858,11 @@
                 <div class="col-auto">
                   <div class="fw-500 lh-14">Services</div>
                   <div class="text-26 lh-16 fw-600 mt-5">22,786</div>
-                  <div class="text-15 lh-14 text-light-1 mt-5">Total bookable services</div>
+                  <div class="text-15 lh-14 text-light-1 mt-5">Total bookable</div>
                 </div>
 
                 <div class="col-auto">
-                  <img src="img/dashboard/icons/4.svg" alt="icon">
+                  <img src="/gotrip/img/dashboard/icons/4.svg" alt="icon">
                 </div>
               </div>
             </div>

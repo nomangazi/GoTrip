@@ -629,7 +629,7 @@
 
                           <li><a href="login.html">Login</a></li>
 
-                          <li><a href="signup.html">Register</a></li>
+                          <li><a href="user/signup.html">Register</a></li>
 
                           <li><a href="terms.html">Terms</a></li>
 
@@ -718,7 +718,7 @@
 
               <div class="d-flex items-center ml-20 is-menu-opened-hide md:d-none">
                 <a href="login.html" class="button px-30 fw-400 text-14 -blue-1 bg-white h-50 text-dark-1">Become An Expert</a>
-                <a href="signup.html" class="button px-30 fw-400 text-14 border-white -blue-1 h-50 text-white ml-20">Sign In / Register</a>
+                <a href="user/signup.html" class="button px-30 fw-400 text-14 border-white -blue-1 h-50 text-white ml-20">Sign In / Register</a>
               </div>
 
               <div class="d-none xl:d-flex x-gap-20 items-center pl-30 text-white" data-x="header-mobile-icons" data-x-toggle="text-white">

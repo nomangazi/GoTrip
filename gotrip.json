@@ -1,0 +1,51 @@
+[
+    {
+        "type":"header",
+        "version":"5.0.4",
+        "comment":"Export to JSON plugin for PHPMyAdmin"
+    },
+    {
+        "type":"database",
+        "name":"gotrip"
+    },
+    {
+        "type":"table",
+        "name":"hotels",
+        "database":"gotrip",
+        "data":[
+            {
+                "id":"1",
+                "hotel_name":"Cox's Bazar International",
+                "hotel_img_url":"upload\/hotel_international",
+                "hotel_email":"hotelinternational@gmail.com"
+            }
+        ]
+    },
+    {
+        "type":"table",
+        "name":"users",
+        "database":"gotrip",
+        "data":[
+            {
+                "id":"2",
+                "name":"Noman Gazi",
+                "img_url":"userIcon.svg",
+                "email":"numan.islam61@gmail.com",
+                "contact_number":"01726387661",
+                "address":"Doulatpur",
+                "password":"202cb962ac59075b964b07152d234b70",
+                "role":""
+            },
+            {
+                "id":"3",
+                "name":"Apurbo Bapary",
+                "img_url":"userIcon.svg",
+                "email":"apurbo@gmail.com",
+                "contact_number":"01727490580",
+                "address":"Morolgajng, Bagerhat",
+                "password":"202cb962ac59075b964b07152d234b70",
+                "role":""
+            }
+        ]
+    }
+]
