@@ -28,9 +28,6 @@ require_once "./config/database.php";
   </div>
 
   <main>
-
-
-    <div class="header-margin"></div>
     <header data-add-bg="" class="header bg-dark-1 js-he ader" data-x="header" data-x-toggle="is-menu-opened">
       <?= HeaderMeta::getMenu(); ?>
     </header>

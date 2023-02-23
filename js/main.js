@@ -481,12 +481,10 @@
 							item.classList.add('-is-in-path');
 						}
 
-						firstDate.innerHTML = `${firstItem.getAttribute('data-week')} ${
-							firstItem.querySelector('.js-date').innerHTML
-						} ${firstItem.getAttribute('data-month')}`;
-						lastDate.innerHTML = `${lastItem.getAttribute('data-week')} ${
-							lastItem.querySelector('.js-date').innerHTML
-						} ${lastItem.getAttribute('data-month')}`;
+						firstDate.innerHTML = `${firstItem.getAttribute('data-week')} ${firstItem.querySelector('.js-date').innerHTML
+							} ${firstItem.getAttribute('data-month')}`;
+						lastDate.innerHTML = `${lastItem.getAttribute('data-week')} ${lastItem.querySelector('.js-date').innerHTML
+							} ${lastItem.getAttribute('data-month')}`;
 
 						completeState = true;
 					}

@@ -35,7 +35,8 @@ class HeaderMeta
       die("Connection failed: " . $dbConn->connect_error);
     }
 
-    $sql = "SELECT * FROM users WHERE id = {$_SESSION['id']}";
+    $id = $_SESSION['id'] ?? 0;
+    $sql = "SELECT * FROM users WHERE id = {$id}";
 
     $userArr = $dbConn->query($sql)->fetch_all(MYSQLI_ASSOC);
 
@@ -78,7 +79,7 @@ class HeaderMeta
                                                   <a href=\"/gotrip/hotel-map.php\">Hotel Map</a>
                                                 </li>
                                                 <li>
-                                                  <a href=\"\">Hotel List</a>
+                                                  <a href=\"/gotrip/hotel_list.php\">Hotel List</a>
                                                 </li>
                                               </ul>
                                             </li>
@@ -89,10 +90,10 @@ class HeaderMeta
                                               </a>
                                               <ul class=\"subnav\">
                                                 <li>
-                                                  <a href=\"\">Tour Map</a>
+                                                  <a href=\"/gotrip/tour-map.php\">Tour Map</a>
                                                 </li>
                                                 <li>
-                                                  <a href=\"\">Tour List</a>
+                                                  <a href=\"/gotrip/tour_list.php\">Tour List</a>
                                                 </li>
                                               </ul>
                                             </li>
@@ -118,7 +119,7 @@ class HeaderMeta
                                               <ul class=\"subnav\">
                                                 <!-- 
                                                 <li>
-                                                  <a href=\"\">Car List</a>
+                                                  <a href=\"/gotrip/car-\">Car List</a>
                                                 </li>
                                                 -->
                                                 <li>
